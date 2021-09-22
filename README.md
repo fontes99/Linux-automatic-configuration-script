@@ -18,4 +18,7 @@ tmux.config
 pfetch
 adit
 syu
+
+# change
+--allow-downgrades
 ```
