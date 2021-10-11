@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # update system
 sudo apt update
 sudo apt upgrade -y
@@ -11,6 +13,10 @@ wget https://github.com/Peltoche/lsd/releases/download/0.20.1/lsd_0.20.1_amd64.d
 sudo dpkg -i lsd_0.20.1_amd64.deb
 sudo rm lsd_0.20.1_amd64.deb
 
-echo "alias ls='lsd -l --blocks permission,user,group,size,name'" >> ~/.bashrc
+sudo sed -i '$ a alias ls="lsd -l --blocks permission,user,group,size,name"' ~/.bashrc
 
-## instalar nerdfonts 
+#sudo echo "alias ls='lsd -l --blocks permission,user,group,size,name'" >> ~/.bashrc 
+
+# instalar nerdfonts 
+
+sudo echo "Instalação completa"
