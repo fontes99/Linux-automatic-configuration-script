@@ -13,6 +13,7 @@ tmux
 # configurar:
 init.vim
 tmux.config
+  https://github.com/gpakosz/.tmux
 
 # bashrc:
 pfetch
