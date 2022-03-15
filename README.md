@@ -23,3 +23,10 @@ syu
 # change
 --allow-downgrades
 ```
+
+### Para WSL
+```
+[automount]
+enabled = true
+options = "metadata,umask=22,fmask=11"
+```
