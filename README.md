@@ -25,6 +25,8 @@ syu
 ```
 
 ### Para WSL
+
+in `/etc/wsl.conf`
 ```
 [automount]
 enabled = true
